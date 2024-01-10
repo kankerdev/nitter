@@ -6,6 +6,7 @@ on:
       - "README.md"
     branches:
       - master
+      - guest_accounts # Since this is the branch we actually want
 
 jobs:
   tests:
